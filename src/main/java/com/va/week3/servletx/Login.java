@@ -59,7 +59,7 @@ public class Login extends HttpServlet {
 		//password is class123
 		if(pass.equals("class123")) {
 			out.print("username /password does not match"+usr);
-			 RequestDispatcher rd = request.getRequestDispatcher("/NewFile.jsp");
+			 RequestDispatcher rd = request.getRequestDispatcher("/WelcomeServer");
 			  rd.forward(request,response);
 			 
 		}
